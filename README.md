@@ -1,0 +1,2 @@
+# dns
+collage system online
