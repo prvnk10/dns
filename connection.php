@@ -1,15 +1,4 @@
 <?php
-
-define("servername", "localhost");
-define("username", "root");
-define("password", "");
-define("db_name", "diginit");
-define("path" , "uploads/");
-define("events_path", "uploads/events/");
-define("academic", "administration/academic/");
-define("study_m", "uploads/study_material/");
-define("assignment", "uploads/assignments");
-
 session_start();
 
 $conn = new mysqli(servername , username, password , db_name);
